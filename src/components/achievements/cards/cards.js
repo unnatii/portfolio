@@ -1,14 +1,16 @@
 import React from 'react'
-import image from '../../../image.png'
+
+
+
 import './cards.css';
 
-const Cards = ({ project }) => {
+const Cards = (props) => {
     return (
       <div className="card">
       <div className="row">
         <div className="avatar-container">
           <div className="photo">
-            <img className="img" src={image} />
+            <img className="img" src={props.image} alt=""/>
           </div>
         </div>
         <div className="details-container">

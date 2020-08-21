@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../../image.png'
+import image from '../../../images/image.png'
 import './cards.css';
 
 const Cards = ({ project }) => {
