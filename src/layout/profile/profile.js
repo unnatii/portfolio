@@ -1,7 +1,9 @@
 import React from 'react';
-import Sidenav from './sidenav/sidenav'
+import Sidenav from '../sidenav/sidenav'
 import './profile.css'
-import MainSection from './mainSection/mainSection'
+import MainSection from '../mainSection/mainSection'
+
+
 const Profile = (props) => {
     return ( <div className="portfolio-container">
         <div className="sidenav-container">

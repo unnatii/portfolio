@@ -1,12 +1,10 @@
 import React from 'react';
-import Skills from '../../skills/skills'
-import Tab from '../../../assets/tabs/tabs'
+import Tab from '../../util/tabs/tabs'
 import './mainSection.css';
 
 const SectionContainer = () => {
     return (
         <div className="section-container">
-           
             <div className="section-component">
            <Tab/>
             </div>

@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 
 import './App.css'
-import Profile from './components/profile/profile'
+import Profile from './layout/profile/profile'
 
 class App extends Component {
   state = { 
